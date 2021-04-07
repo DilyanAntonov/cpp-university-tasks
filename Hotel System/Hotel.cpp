@@ -54,11 +54,6 @@ int main() {
                     cout << "Price paid: " << guestsArr[i]->getTotalPrice() << endl;
                     cout << "========================" << endl;
                 }
-                else{
-                    cout << "========================" << endl;
-                    cout << "No guests found";
-                    cout << "========================" << endl;
-                }
             }
             continue;
         // Show all unmaried man born in a specific year
@@ -68,11 +63,6 @@ int main() {
                 if (guestsArr[i]->getBirthYear() == year && guestsArr[i]->getFamilyStatus() == 1) {
                     unmarriedGuestsArr[lastUnmarriedMan] = guestsArr[i];
                     lastUnmarriedMan++;
-                }
-                else{
-                    cout << "========================" << endl;
-                    cout << "No guests found";
-                    cout << "========================" << endl;
                 }
             }
             for (int i = 0; i < lastUnmarriedMan; i++) {
