@@ -55,6 +55,7 @@ int main() {
                     cout << "========================" << endl;
                 }
                 else{
+                    cout << "========================" << endl;
                     cout << "No guests found";
                     cout << "========================" << endl;
                 }
@@ -69,6 +70,7 @@ int main() {
                     lastUnmarriedMan++;
                 }
                 else{
+                    cout << "========================" << endl;
                     cout << "No guests found";
                     cout << "========================" << endl;
                 }
