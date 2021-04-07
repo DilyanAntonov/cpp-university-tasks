@@ -9,7 +9,7 @@ private:
 	string city;
 	int familyStatus;
 	int stayDuration;
-	int price;
+	float price;
 public:
 	void getData();
 	void display();

@@ -18,7 +18,7 @@ CGuest::CGuest() {
 	this->city = "Undefined";
 	this->familyStatus = 0;
 	this->stayDuration = 0;
-	this->price = 0;
+	this->price = 0.0;
 }
 
 CGuest::~CGuest(void) {
