@@ -83,4 +83,5 @@ bool CStudent::getBadMark() {
             break;
         }
     }
+    return false;
 }
