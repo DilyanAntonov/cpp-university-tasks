@@ -116,4 +116,8 @@ int main() {
         }
         break;
     }
+
+    delete[] plantsArr;
+
+    return 0;
 }
