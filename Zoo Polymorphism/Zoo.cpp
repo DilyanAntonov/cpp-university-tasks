@@ -76,6 +76,10 @@ int main()
         }
         break;
     }
+
+    for (int i = 0; i < zoo.size(); i++) {
+        delete zoo[i];
+    }
             
     return 0;
 }
